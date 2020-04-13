@@ -7,10 +7,10 @@ import os
 # open pdf or excel etc. and copy all to clipboard
 
 # Create a regex for numbers
-normalinvoiceRegex = re.compile(r'''
+normalnumberRegex = re.compile(r'''
 \d{7}
 ''', re.VERBOSE)
-ABCDinvoiceRegex = re.compile(r'''
+ABCDnumberRegex = re.compile(r'''
 ABCD\s?\d{3}
 ''', re.VERBOSE)
 
