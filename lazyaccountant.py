@@ -4,7 +4,7 @@ import pyperclip
 import openpyxl
 from openpyxl import load_workbook
 import os
-# open pdf or and copy all to clipboard
+# open pdf or excel etc. and copy all to clipboard
 
 # Create a regex for numbers
 normalinvoiceRegex = re.compile(r'''
